@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardElevation="4dp">
+
+    <LinearLayout
+        android:layout_margin="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Restaurant Details"
+            android:padding="10dp"
+            android:background="@color/colorPrimaryDark"
+            android:textColor="@android:color/white"
+            android:textAlignment="center"
+            android:textSize="20dp"></TextView>
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtName"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:alpha="1.5"
+            android:background="@drawable/edittext"
+            android:hint="Restaurant Name"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtDesc"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:alpha="1.5"
+            android:background="@drawable/edittext"
+            android:hint="Description"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtPhone"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:alpha="1.5"
+            android:background="@drawable/edittext"
+            android:hint="Phone Number"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtEmail"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:alpha="1.5"
+            android:background="@drawable/edittext"
+            android:hint="Email Address"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtTable"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:alpha="1.5"
+            android:background="@drawable/edittext"
+            android:hint="No. of Tables"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/edtRating"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:adjustViewBounds="true"
+            android:alpha="1.5"
+            android:background="@drawable/edittext"
+            android:hint="Rating (out of 5)"
+            android:padding="10dp"
+            android:textColor="#fff"
+            android:textColorHint="#fff" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Enter Address"
+            android:layout_marginTop="10dp"
+            android:textColor="@android:color/white"></TextView>
+
+            <fragment android:id="@+id/autocomplete_fragment1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="10dp"
+                android:adjustViewBounds="true"
+                android:alpha="1.5"
+                android:background="@drawable/edittext"
+                android:name="com.google.android.libraries.places.widget.AutocompleteSupportFragment"
+                />
+
+
+        <LinearLayout
+            android:weightSum="2"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnSelect"
+                android:text="SELECT"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+               />
+
+            <Button
+                android:id="@+id/btnUpload"
+                android:text="UPLOAD"
+                android:textColor="@android:color/white"
+                android:layout_alignParentBottom="true"
+                android:layout_marginRight="8dp"
+                android:layout_marginLeft="8dp"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
