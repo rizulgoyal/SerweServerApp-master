@@ -2,6 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/SerweServerApp.iml" filepath="$PROJECT_DIR$/SerweServerApp.iml" group="SerweServerApp" />
+      <module fileurl="file://$PROJECT_DIR$/app/SerweServerApp-app.iml" filepath="$PROJECT_DIR$/app/SerweServerApp-app.iml" group="SerweServerApp/app" />
       <module fileurl="file://$PROJECT_DIR$/SerweServerApp-master.iml" filepath="$PROJECT_DIR$/SerweServerApp-master.iml" group="SerweServerApp-master" />
       <module fileurl="file://$PROJECT_DIR$/app/SerweServerApp-master-app.iml" filepath="$PROJECT_DIR$/app/SerweServerApp-master-app.iml" group="SerweServerApp-master/app" />
       <module fileurl="file://$PROJECT_DIR$/SerweServerNew.iml" filepath="$PROJECT_DIR$/SerweServerNew.iml" group="SerweServerNew" />
